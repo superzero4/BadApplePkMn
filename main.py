@@ -86,7 +86,7 @@ def run(url, cards, black_cards, white_cards, height, width):
 
 if __name__ == "__main__":
     height = 14
-    width = round(height * (8.8 / (.75 * 6.3)))
+    width = round(height * (8.8 / (.75 * 6.3))) 
     cards = []
     print("loading cards")
     for card in os.listdir('pokemon cards'):
